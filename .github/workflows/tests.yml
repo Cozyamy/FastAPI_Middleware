@@ -19,6 +19,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install dependencies
+        run: poetry shell
         run: poetry install
       - name: Run tests
         run: pytest
