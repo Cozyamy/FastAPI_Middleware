@@ -1,6 +1,7 @@
 # FastAPI File Upload Service
 
 This project implements a FastAPI-based file upload service. It allows users to upload files and determines their MIME type. The service includes middleware for logging incoming requests.
+![Coverage](coverage.svg)
 
 ## Installation
 
