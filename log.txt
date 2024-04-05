@@ -1,0 +1,2 @@
+2024-04-05 22:08:34,771 - INFO - {'url': '/upload/', 'method': 'POST', 'process_time': 0.02546834945678711, 'host': 'testclient', 'ip': 'testclient'}
+2024-04-05 22:08:34,778 - INFO - HTTP Request: POST http://testserver/upload/ "HTTP/1.1 200 OK"

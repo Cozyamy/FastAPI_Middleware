@@ -1,7 +1,10 @@
 # FastAPI File Upload Service
 
+[![Coverage](coverage.svg)](<coverage_report_url>)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Poetry](https://img.shields.io/badge/Poetry-%233B82F6.svg?style=for-the-badge&logo=poetry&logoColor=0B3D8D)
+
 This project implements a FastAPI-based file upload service. It allows users to upload files and determines their MIME type. The service includes middleware for logging incoming requests.
-![Coverage](coverage.svg)
 
 ## Installation
 
@@ -46,3 +49,4 @@ pytest
 
 - FastAPI: Web framework for building APIs with Python.
 - Magic: Library for detecting MIME types of files.
+
