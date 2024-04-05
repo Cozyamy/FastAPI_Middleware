@@ -1,6 +1,6 @@
 # FastAPI File Upload Service
 
-[![Coverage](coverage.svg)](<coverage_report_url>)
+[![Coverage](coverage.svg)](https://cozyamy.github.io/FastAPI_Middleware/htmlcov/index.html)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Poetry](https://img.shields.io/badge/Poetry-%233B82F6.svg?style=for-the-badge&logo=poetry&logoColor=0B3D8D)
 
