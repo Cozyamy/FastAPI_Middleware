@@ -22,11 +22,10 @@ jobs:
         run: |
           curl -sSL https://install.python-poetry.org | python -
           export PATH="$HOME/.poetry/bin:$PATH"
+          source $HOME/.poetry/env
       - name: Install dependencies
         run: |
           poetry install
-      - name: Install pytest
-        run: |
-          poetry add pytest --dev
       - name: Run tests
-        run: pytest
+        run: |
+          poetry run pytest
