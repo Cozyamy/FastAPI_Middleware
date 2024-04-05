@@ -1,8 +1,7 @@
 # FastAPI File Upload Service
 
 [![Coverage](coverage.svg)](https://cozyamy.github.io/FastAPI_Middleware/htmlcov/index.html)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Poetry](https://img.shields.io/badge/Poetry-%233B82F6.svg?style=for-the-badge&logo=poetry&logoColor=0B3D8D)
+[![Run tests](https://github.com/Cozyamy/FastAPI_Middleware/actions/workflows/tests.yml/badge.svg)](https://github.com/Cozyamy/FastAPI_Middleware/actions/workflows/tests.yml)
 
 This project implements a FastAPI-based file upload service. It allows users to upload files and determines their MIME type. The service includes middleware for logging incoming requests.
 
